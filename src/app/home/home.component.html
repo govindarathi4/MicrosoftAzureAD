@@ -1,3 +1,8 @@
-<div>
-    <button (click)='createInfrastructure()'>Begin Creation</button>
+<header class="header">
+    <h1>Welcome to Data Clean Room, {{ loggedInUser }}</h1>
+</header>
+
+<div class="container">
+    <h3>{{response}}</h3>
+    <button class="btn btn-primary" (click)='createInfrastructure()'>Begin Creation</button>
 </div>

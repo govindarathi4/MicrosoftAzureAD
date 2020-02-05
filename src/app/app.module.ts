@@ -18,7 +18,7 @@ import { HttpClientModule } from '@angular/common/http';
     HttpClientModule,
     MsalModule.forRoot({
       clientID: '92b0217a-c7b7-4c81-86ee-e006214c34a9',
-      redirectUri: 'http://localhost:4200',
+      redirectUri: 'https://dev-cleanroomui.azurewebsites.net',
       authority: 'https://login.microsoftonline.com/599eb949-d772-4f38-bf5c-cb9b60b18882',
       cacheLocation: 'localStorage'
     })
